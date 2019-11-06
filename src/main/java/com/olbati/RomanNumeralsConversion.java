@@ -1,40 +1,52 @@
 package com.olbati;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.SortedMap;
-import java.util.TreeMap;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class RomanNumeralsConversion {
 
-private SortedMap<Integer,String> config = new TreeMap<>();
+    private Map<Integer, String> config = new TreeMap<>(Collections.reverseOrder());
 
-    public RomanNumeralsConversion(){
-        config.put(1,"I");
-        config.put(2,"II");
-        config.put(3,"III");
-        config.put(4,"IV");
-        config.put(5,"V");
-        config.put(6,"VI");
-        config.put(7,"VII");
-        config.put(8,"VIII");
-        config.put(9,"IX");
-        config.put(10,"X");
+    public RomanNumeralsConversion () {
+        config.put(1, "I");
+        // config.put(2,"II");
+        // config.put(3,"III");
+        config.put(4, "IV");
+        config.put(5, "V");
+        //config.put(6,"VI");
+        //config.put(7,"VII");
+        //config.put(8,"VIII");
+        config.put(9, "IX");
+        config.put(10, "X");
+        config.put(40, "XL");
+        config.put(50, "L");
+        config.put(90, "XC");
+        config.put(100, "C");
+        config.put(400, "CD");
+        config.put(500, "D");
+        config.put(900, "CM");
+        config.put(1000, "M");
+
     }
 
 
-    public String normalToRomanConvertor(int normalNumber){
+    public String normalToRomanConvertor (int normalNumber) {
 
         int normalNumberBeta = normalNumber;
-        String romanValue = "" ;
+        String romanValue = "";
 
-        for(Map.Entry<Integer,String> entry : config.entrySet()) {
+
+        for (Map.Entry<Integer, String> entry : config.entrySet()) {
             Integer key = entry.getKey();
             String value = entry.getValue();
 
-            while (normalNumberBeta <= key && normalNumberBeta > 0){
-                romanValue = romanValue+value;
+            while (normalNumberBeta >= key && normalNumberBeta > 0) {
+                System.out.println("Key Value : (" + key + "," + value + ")");
+                System.out.println("Before : (" + romanValue + "," + normalNumberBeta + ")");
+                romanValue = romanValue + value;
                 normalNumberBeta = normalNumberBeta - key;
+                System.out.println("After : (" + romanValue + "," + normalNumberBeta + ")");
+                System.out.println("\n");
             }
         }
 
