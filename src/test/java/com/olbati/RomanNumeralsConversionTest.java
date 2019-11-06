@@ -750,6 +750,30 @@ public class RomanNumeralsConversionTest {
         assertThat(romanNumeralValue).isEqualTo("M");
     }
 
+    @Test
+    public void when_input_is_2000_then_return_MM () {
+        // Arrange
+        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
+
+        // Act
+        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(2000);
+
+        // Assert
+        assertThat(romanNumeralValue).isEqualTo("MM");
+    }
+
+    @Test
+    public void when_input_is_3000_then_return_MMM () {
+        // Arrange
+        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
+
+        // Act
+        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3000);
+
+        // Assert
+        assertThat(romanNumeralValue).isEqualTo("MMM");
+    }
+
 
 
 
