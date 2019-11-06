@@ -6,26 +6,23 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RomanNumeralsConversionTest {
 
+    // Arrange
+    RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
+    String romanNumeralValue;
+
     @Test
     public void when_input_is_1_then_return_roman_number_I () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(1);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(1);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("I");
-
     }
 
     @Test
     public void when_input_is_2_then_return_roman_number_II () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(2);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(2);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("II");
@@ -33,11 +30,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_3_then_return_roman_number_III () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("III");
@@ -45,11 +39,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_4_then_return_roman_number_IV () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(4);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(4);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("IV");
@@ -57,11 +48,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_5_then_return_roman_number_V () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(5);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(5);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("V");
@@ -69,11 +57,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_6_then_return_roman_number_VI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(6);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(6);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("VI");
@@ -81,11 +66,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_7_then_return_roman_number_VII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(7);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(7);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("VII");
@@ -93,11 +75,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_8_then_return_roman_number_VIII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(8);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(8);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("VIII");
@@ -105,11 +84,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_9_then_return_roman_number_IX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(9);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(9);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("IX");
@@ -117,11 +93,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_10_then_return_roman_number_X () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(10);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(10);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("X");
@@ -129,11 +102,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_11_then_return_roman_number_XI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(11);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(11);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XI");
@@ -141,11 +111,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_12_then_return_roman_number_XII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(12);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(12);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XII");
@@ -153,11 +120,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_13_then_return_roman_number_XIII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(13);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(13);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XIII");
@@ -165,11 +129,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_14_then_return_roman_number_XIV () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(14);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(14);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XIV");
@@ -177,11 +138,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_15_then_return_roman_number_XV () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(15);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(15);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XV");
@@ -189,11 +147,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_20_then_return_roman_number_XX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(20);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(20);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XX");
@@ -201,11 +156,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_30_then_return_roman_number_XXX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(30);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(30);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XXX");
@@ -213,11 +165,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_31_then_return_roman_number_XXXI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(31);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(31);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XXXI");
@@ -225,11 +174,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_39_then_return_roman_number_XXXIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(39);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(39);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XXXIX");
@@ -237,11 +183,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_40_then_return_roman_number_XL () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(40);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(40);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XL");
@@ -250,11 +193,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_41_then_return_roman_number_XLI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(41);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(41);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XLI");
@@ -262,11 +202,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_42_then_return_roman_number_XLII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(42);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(42);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XLII");
@@ -274,11 +211,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_50_then_return_roman_number_L () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(50);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(50);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("L");
@@ -286,11 +220,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_51_then_return_roman_number_LI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(51);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(51);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LI");
@@ -298,11 +229,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_52_then_return_roman_number_LII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(52);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(52);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LII");
@@ -310,11 +238,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_59_then_return_roman_number_LIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(59);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(59);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LIX");
@@ -323,11 +248,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_60_then_return_roman_number_LX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(60);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(60);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LX");
@@ -335,11 +257,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_61_then_return_roman_number_LXI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(61);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(61);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LXI");
@@ -347,11 +266,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_62_then_return_roman_number_LXII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(62);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(62);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LXII");
@@ -359,11 +275,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_69_then_return_roman_number_LXIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(69);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(69);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LXIX");
@@ -371,11 +284,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_70_then_return_roman_number_LXX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(70);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(70);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LXX");
@@ -384,11 +294,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_80_then_return_roman_number_LXXX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(80);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(80);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LXXX");
@@ -396,11 +303,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_89_then_return_roman_number_LXXXIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(89);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(89);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("LXXXIX");
@@ -408,11 +312,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_90_then_return_roman_number_XC () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(90);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(90);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XC");
@@ -420,11 +321,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_91_then_return_roman_number_XCI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(91);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(91);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XCI");
@@ -432,11 +330,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_92_then_return_roman_number_XCII () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(92);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(92);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XCII");
@@ -444,11 +339,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_99_then_return_roman_number_XCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(99);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(99);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("XCIX");
@@ -456,11 +348,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_100_then_return_roman_number_C () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(100);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(100);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("C");
@@ -468,11 +357,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_110_then_return_roman_number_CX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(110);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(110);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CX");
@@ -481,11 +367,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_120_then_return_roman_number_CXX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(120);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(120);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CXX");
@@ -493,11 +376,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_190_then_return_roman_number_CXC () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(190);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(190);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CXC");
@@ -505,11 +385,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_199_then_return_roman_number_CXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(199);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(199);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CXCIX");
@@ -517,11 +394,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_200_then_return_roman_number_CXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(200);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(200);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CC");
@@ -529,11 +403,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_299_then_return_roman_number_CCXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(299);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(299);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CCXCIX");
@@ -542,11 +413,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_300_then_return_roman_number_CCC () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(300);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(300);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CCC");
@@ -555,11 +423,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_399_then_return_roman_number_CCCXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(399);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(399);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CCCXCIX");
@@ -568,11 +433,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_400_then_return_roman_number_CD () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(400);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(400);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CD");
@@ -581,11 +443,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_499_then_return_roman_number_CDXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(499);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(499);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CDXCIX");
@@ -593,11 +452,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_500_then_return_roman_number_D () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(500);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(500);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("D");
@@ -605,11 +461,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_501_then_return_roman_number_DI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(501);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(501);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DI");
@@ -617,11 +470,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_599_then_return_roman_number_DXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(599);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(599);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DXCIX");
@@ -629,11 +479,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_600_then_return_roman_number_DC () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(600);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(600);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DC");
@@ -641,11 +488,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_699_then_return_roman_number_DCXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(699);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(699);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DCXCIX");
@@ -654,11 +498,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_700_then_return_roman_number_DCC () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(700);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(700);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DCC");
@@ -667,11 +508,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_799_then_return_roman_number_DCCXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(799);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(799);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DCCXCIX");
@@ -679,11 +517,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_800_then_return_roman_number_DCCC () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(800);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(800);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DCCC");
@@ -691,11 +526,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_899_then_return_roman_number_DCCCXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(899);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(899);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("DCCCXCIX");
@@ -703,11 +535,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_900_then_return_roman_number_CM () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(900);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(900);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CM");
@@ -715,11 +544,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_901_then_return_roman_number_CMI () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(901);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(901);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CMI");
@@ -727,11 +553,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_999_then_return_roman_number_CMXCIX () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(999);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(999);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("CMXCIX");
@@ -739,11 +562,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_1000_then_return_roman_number_M () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(1000);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(1000);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("M");
@@ -751,11 +571,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_2000_then_return_roman_number_MM () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(2000);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(2000);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("MM");
@@ -763,11 +580,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_3000_then_return_roman_number_MMM () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3000);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3000);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("MMM");
@@ -776,11 +590,8 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_upper_than_3000_then_return_empty_roman_number () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3001);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3001);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("");
@@ -788,16 +599,11 @@ public class RomanNumeralsConversionTest {
 
     @Test
     public void when_input_is_0_then_return_empty_roman_number () {
-        // Arrange
-        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
-
         // Act
-        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(0);
+        romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(0);
 
         // Assert
         assertThat(romanNumeralValue).isEqualTo("");
     }
-
-
 }
 
