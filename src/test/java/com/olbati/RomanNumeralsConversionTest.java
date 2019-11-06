@@ -1,6 +1,5 @@
 package com.olbati;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -8,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class RomanNumeralsConversionTest {
 
     @Test
-    public void when_input_is_1_Then_return_I () {
+    public void when_input_is_1_then_return_roman_number_I () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -21,7 +20,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_2_Then_return_II () {
+    public void when_input_is_2_then_return_roman_number_II () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -33,7 +32,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_3_Then_return_III () {
+    public void when_input_is_3_then_return_roman_number_III () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -45,7 +44,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_4_Then_return_IV () {
+    public void when_input_is_4_then_return_roman_number_IV () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -57,7 +56,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_5_Then_return_V () {
+    public void when_input_is_5_then_return_roman_number_V () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -69,7 +68,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_6_Then_return_VI () {
+    public void when_input_is_6_then_return_roman_number_VI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -81,7 +80,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_7_Then_return_VII () {
+    public void when_input_is_7_then_return_roman_number_VII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -93,7 +92,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_8_Then_return_VIII () {
+    public void when_input_is_8_then_return_roman_number_VIII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -105,7 +104,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_9_Then_return_IX () {
+    public void when_input_is_9_then_return_roman_number_IX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -117,7 +116,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_10_Then_return_X () {
+    public void when_input_is_10_then_return_roman_number_X () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -129,7 +128,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_11_Then_return_XI () {
+    public void when_input_is_11_then_return_roman_number_XI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -141,7 +140,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_12_Then_return_XII () {
+    public void when_input_is_12_then_return_roman_number_XII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -153,7 +152,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_13_Then_return_XIII () {
+    public void when_input_is_13_then_return_roman_number_XIII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -165,7 +164,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_14_Then_return_XIV () {
+    public void when_input_is_14_then_return_roman_number_XIV () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -177,7 +176,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_15_Then_return_XV () {
+    public void when_input_is_15_then_return_roman_number_XV () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -189,7 +188,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_20_Then_return_XX () {
+    public void when_input_is_20_then_return_roman_number_XX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -201,7 +200,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_30_Then_return_XXX () {
+    public void when_input_is_30_then_return_roman_number_XXX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -213,7 +212,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_31_Then_return_XXXI () {
+    public void when_input_is_31_then_return_roman_number_XXXI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -225,7 +224,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_39_Then_return_XXXIX () {
+    public void when_input_is_39_then_return_roman_number_XXXIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -237,7 +236,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_40_Then_return_XL () {
+    public void when_input_is_40_then_return_roman_number_XL () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -250,7 +249,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_41_Then_return_XLI () {
+    public void when_input_is_41_then_return_roman_number_XLI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -262,7 +261,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_42_Then_return_XLII () {
+    public void when_input_is_42_then_return_roman_number_XLII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -274,7 +273,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_50_Then_return_L () {
+    public void when_input_is_50_then_return_roman_number_L () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -286,7 +285,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_51_Then_return_LI () {
+    public void when_input_is_51_then_return_roman_number_LI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -298,7 +297,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_52_Then_return_LII () {
+    public void when_input_is_52_then_return_roman_number_LII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -310,7 +309,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_59_Then_return_LIX () {
+    public void when_input_is_59_then_return_roman_number_LIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -323,7 +322,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_60_Then_return_LX () {
+    public void when_input_is_60_then_return_roman_number_LX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -335,7 +334,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_61_Then_return_LXI () {
+    public void when_input_is_61_then_return_roman_number_LXI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -347,7 +346,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_62_Then_return_LXII () {
+    public void when_input_is_62_then_return_roman_number_LXII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -359,7 +358,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_69_Then_return_LXIX () {
+    public void when_input_is_69_then_return_roman_number_LXIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -371,7 +370,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_70_Then_return_LXX () {
+    public void when_input_is_70_then_return_roman_number_LXX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -384,7 +383,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_80_Then_return_LXXX () {
+    public void when_input_is_80_then_return_roman_number_LXXX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -396,7 +395,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_89_Then_return_LXXXIX () {
+    public void when_input_is_89_then_return_roman_number_LXXXIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -408,7 +407,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_90_Then_return_XC () {
+    public void when_input_is_90_then_return_roman_number_XC () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -420,7 +419,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_91_Then_return_XCI () {
+    public void when_input_is_91_then_return_roman_number_XCI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -432,7 +431,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_92_then_return_XCII () {
+    public void when_input_is_92_then_return_roman_number_XCII () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -444,7 +443,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_99_then_return_XCIX () {
+    public void when_input_is_99_then_return_roman_number_XCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -456,7 +455,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_100_then_return_C () {
+    public void when_input_is_100_then_return_roman_number_C () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -468,7 +467,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_110_then_return_CX () {
+    public void when_input_is_110_then_return_roman_number_CX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -481,7 +480,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_120_then_return_CXX () {
+    public void when_input_is_120_then_return_roman_number_CXX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -493,7 +492,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_190_then_return_CXC () {
+    public void when_input_is_190_then_return_roman_number_CXC () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -505,7 +504,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_199_then_return_CXCIX () {
+    public void when_input_is_199_then_return_roman_number_CXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -517,7 +516,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_200_then_return_CXCIX () {
+    public void when_input_is_200_then_return_roman_number_CXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -529,7 +528,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_299_then_return_CCXCIX () {
+    public void when_input_is_299_then_return_roman_number_CCXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -542,7 +541,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_300_then_return_CCC () {
+    public void when_input_is_300_then_return_roman_number_CCC () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -555,7 +554,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_399_then_return_CCCXCIX () {
+    public void when_input_is_399_then_return_roman_number_CCCXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -568,7 +567,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_400_then_return_CD () {
+    public void when_input_is_400_then_return_roman_number_CD () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -581,7 +580,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_499_then_return_CDXCIX () {
+    public void when_input_is_499_then_return_roman_number_CDXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -593,7 +592,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_500_then_return_D () {
+    public void when_input_is_500_then_return_roman_number_D () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -605,7 +604,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_501_then_return_DI () {
+    public void when_input_is_501_then_return_roman_number_DI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -617,7 +616,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_599_then_return_DXCIX () {
+    public void when_input_is_599_then_return_roman_number_DXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -629,7 +628,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_600_then_return_DC () {
+    public void when_input_is_600_then_return_roman_number_DC () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -641,7 +640,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_699_then_return_DCXCIX () {
+    public void when_input_is_699_then_return_roman_number_DCXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -654,7 +653,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_700_then_return_DCC () {
+    public void when_input_is_700_then_return_roman_number_DCC () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -667,7 +666,7 @@ public class RomanNumeralsConversionTest {
 
 
     @Test
-    public void when_input_is_799_then_return_DCCXCIX () {
+    public void when_input_is_799_then_return_roman_number_DCCXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -679,7 +678,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_800_then_return_DCCC () {
+    public void when_input_is_800_then_return_roman_number_DCCC () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -691,7 +690,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_899_then_return_DCCCXCIX () {
+    public void when_input_is_899_then_return_roman_number_DCCCXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -703,7 +702,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_900_then_return_CM () {
+    public void when_input_is_900_then_return_roman_number_CM () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -715,7 +714,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_901_then_return_CMI () {
+    public void when_input_is_901_then_return_roman_number_CMI () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -727,7 +726,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_999_then_return_CMXCIX () {
+    public void when_input_is_999_then_return_roman_number_CMXCIX () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -739,7 +738,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_1000_then_return_M () {
+    public void when_input_is_1000_then_return_roman_number_M () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -751,7 +750,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_2000_then_return_MM () {
+    public void when_input_is_2000_then_return_roman_number_MM () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -763,7 +762,7 @@ public class RomanNumeralsConversionTest {
     }
 
     @Test
-    public void when_input_is_3000_then_return_MMM () {
+    public void when_input_is_3000_then_return_roman_number_MMM () {
         // Arrange
         RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
 
@@ -775,6 +774,29 @@ public class RomanNumeralsConversionTest {
     }
 
 
+    @Test
+    public void when_input_is_upper_than_3000_then_return_empty_roman_number () {
+        // Arrange
+        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
+
+        // Act
+        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(3001);
+
+        // Assert
+        assertThat(romanNumeralValue).isEqualTo("");
+    }
+
+    @Test
+    public void when_input_is_0_then_return_empty_roman_number () {
+        // Arrange
+        RomanNumeralsConversion romanNumeralsConversion = new RomanNumeralsConversion();
+
+        // Act
+        String romanNumeralValue = romanNumeralsConversion.normalToRomanConvertor(0);
+
+        // Assert
+        assertThat(romanNumeralValue).isEqualTo("");
+    }
 
 
 }
